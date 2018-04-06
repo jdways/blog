@@ -60,3 +60,10 @@ git reset --hard xxxxx 通过每一条记录的hash值回退（xxx)可以简写�
 
 
 **6、配置公钥便于提交到远程仓库**
+
+- 配置格式的远程仓库地址 git remote add 远程仓库名 远程仓库地址
+
+- 创建ssh key ssh-keygen -t rsa -C "邮箱地址"
+
+- 把公钥放在服务器上
+用记事本打开id_rsa.pub 复制到ssh key 创建一个新的ssh key即可。
