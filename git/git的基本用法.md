@@ -19,6 +19,7 @@ git add .  或 git add （a.html）某一个html文件，加入代码暂存区�
 git commit -m "xxxx" -m代表message信息， "xxx"为修改代码的日志备注。
 commit会将代码信息提交到本地的仓库。
 
+git status 查看修改信息情况
 **3、git 提交拉取远程仓库命令**
 
 git push 推送到远程仓库
@@ -58,3 +59,4 @@ git reset --hard xxxxx 通过每一条记录的hash值回退（xxx)可以简写�
 ![hash值](img/2.png)
 
 
+**6、配置公钥便于提交到远程仓库**
